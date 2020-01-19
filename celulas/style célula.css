@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    
+}
+
+#container {
+   display: grid;
+   width: 100vw;
+   grid-template-columns: repeat(7, 1fr); 
+   background-image: url(../imagens/chama2.png);
+   background-size: cover;
+        
+}
+
+.tittle{
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    color: yellow;
+    background-color: tomato;
+}
+
+#container h1,p{
+    font-family: 'Handlee', cursive;
+      
+}
+
+#container p{
+    font-family: 'Handlee', cursive;
+    
+}
