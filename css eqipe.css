@@ -127,12 +127,27 @@ section img{
         }
     }
 
-.tudo{
-    display: flex;   
-    flex-direction: column;
-    width: 100vw;    
-    justify-content: center; 
+.cap{
+        font-family: 'Permanent Marker', cursive;
+    }
+
+dt{
+        font-weight: bolder;
+        color: red;
+    }
+    
+dd{
+        color: tomato
+    }
+
+.celulas ul{
+        list-style: none;
+    }
+
+
+
 }
+
 
 @media screen and (min-width: 700px){
 body header{
@@ -224,23 +239,13 @@ section h1{
     margin: 0;
 }
 
-}
-
-
-
-
-
-/*** FINAL HEADER ***/
-
 /*** AQUI TODO O CORPO ***/
 .tudo{
     display:flex;    
     width:100vw;
 }
 
-.cap{
-    font-family: 'Permanent Marker', cursive;
-}
+
 /*** FINAL DO CORPO ***/
 
 /*** AQUI TODO LADO ESQUERDO ***/
@@ -248,14 +253,7 @@ section h1{
     width: 15vw;    
 }
 
-dt{
-    font-weight: bolder;
-    color: red;
-}
 
-dd{
-    color: tomato
-}
 /*** FINAL LADO ESQUERDO ***/
 
 /*** AQUI TODO CENTRO ***/
@@ -286,9 +284,7 @@ dd{
 /*** FINAL CENTRO ***/
 
 /*** AQUI TODO LADO DIREITO ***/
-.celulas ul{
-    list-style: none;
-}
+
 
 .direito{
     width: 15vw;
@@ -328,24 +324,14 @@ footer img{
     margin-top: 10px;
 }
 
-/*** FINAL DO FOOTER ***/
+
+}
 
 
-/*******************
-********************
-******************** 
-AQUI TODA RESPONSIVIDADE 
-********************
-********************
-********************/
 
 
-/*** FINAL DO Header ***/
 
-/*******************
-********************
-********************
-FINAL DA RESPONSIVIDADE
-********************
-********************
-********************/
+/*** FINAL HEADER ***/
+
+
+
