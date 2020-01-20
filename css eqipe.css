@@ -12,6 +12,7 @@ body{
 
 /*** FINAL CONFIGURAÇÃO GERAL ***/
 
+/***RESOLUÇÃO DE 350PX***/
 /*** AQUI TODO O HEADER ***/
 @media screen and (min-width: 350px){       
 header{
@@ -41,13 +42,13 @@ nav li{
     margin:30px 5px;
     }   
 
+nav li:hover{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 nav a{
     text-decoration: none;
-    }
-
-nav a:hover{
-    font-weight: 600px;
-    font-size: bolder;
     }
 
 .menu a{
@@ -62,7 +63,9 @@ header img{
     width: 130px;
     height: 150px;
     }
+/*** FINAL DO HEADER ***/
 
+/*** AQUI TODO O BANNER ***/
 section{
     background-color: rgba(0,0,0,70%);
     padding-top: 30px;
@@ -85,6 +88,7 @@ section img{
     color: red;
     font-style: italic;
     }
+
 #rai1{
     animation: raio1 forwards;
     animation-duration: 2s;
@@ -127,6 +131,9 @@ section img{
         }
     }
 
+/*** FINAL DO BANNER ***/
+
+/*** AQUI TODO O BODY, OU MEIO DA PAGE***/
 .cap{
         font-family: 'Permanent Marker', cursive;
     }
@@ -144,11 +151,14 @@ dd{
         list-style: none;
     }
 
-
-
 }
 
+/*** FINAL DO O BODY, OU MEIO DA PAGE***/
 
+/***FINAL RESOLUÇÃO DE 350PX***/
+
+/***RESOLUÇÃO DE 700PX***/
+/*** AQUI TODO O HEADER ***/
 @media screen and (min-width: 700px){
 body header{
     display: flex;    
@@ -213,6 +223,10 @@ header{
     }
 }
 
+/*** FINAL DO HEADER ***/
+
+/*** AQUI TODO O BANNER ***/
+
 main{
     text-align: center;
 }
@@ -238,15 +252,13 @@ section h1{
     font-size: 5rem;
     margin: 0;
 }
+/*** FINAL DO BANNER ***/
 
 /*** AQUI TODO O CORPO ***/
 .tudo{
     display:flex;    
     width:100vw;
 }
-
-
-/*** FINAL DO CORPO ***/
 
 /*** AQUI TODO LADO ESQUERDO ***/
 .esquerdo{
@@ -293,6 +305,7 @@ section h1{
 
 /*** FINAL LADO DIREITO ***/
 
+/*** FINAL DO CORPO ***/
 
 /*** AQUI TODO O FOOTER ***/
 footer{
@@ -308,8 +321,8 @@ footer{
 footer img{
     display: inline;
     margin-right: 15px;    
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 #logofooter{
@@ -324,14 +337,9 @@ footer img{
     margin-top: 10px;
 }
 
-
 }
 
-
-
-
-
-/*** FINAL HEADER ***/
+/*** FINAL FOOTER ***/
 
 
 
